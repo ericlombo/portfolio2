@@ -272,6 +272,8 @@ const SkillsSection = () => {
         { name: "JavaScript", level: 93 },
         { name: "Tailwind CSS", level: 90 },
         { name: "HTML5 / CSS3", level: 92 },
+        { name: "React Native", level: 44 },
+        { name: "Typescript", level: 52 },
       ],
     },
     {
@@ -293,7 +295,8 @@ const SkillsSection = () => {
         { name: "Git / GitHub", level: 95 },
         { name: "Chart.js / D3.js", level: 82 },
         { name: "AWS", level: 78 },
-        { name: "VS Code", level: 93 },
+        { name: "Shadcn/Ui", level: 93 },
+        { name: "Docker", level: 59 },
       ],
     },
   ];
