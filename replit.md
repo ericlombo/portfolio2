@@ -1,6 +1,15 @@
 # Overview
 
-This is a full-stack web application built as a personal portfolio for Alex Johnson, a Full Stack Developer. The application showcases a modern, animated portfolio website with smooth transitions, particle effects, and responsive design. It demonstrates proficiency in React, TypeScript, and modern web development practices with a complete backend API infrastructure.
+This is a full-stack web application built as a personal portfolio for Eric Lombo Mwakio, a Full Stack Developer. The application showcases a modern, animated portfolio website with smooth transitions, particle effects, and responsive design. It demonstrates proficiency in React, JavaScript, and modern web development practices with real-time data visualizations and a complete backend API infrastructure.
+
+## Recent Changes (January 2025)
+- Updated portfolio content with Eric Lombo Mwakio's real information from his CV
+- Personalized hero section with Eric's name and specialization in responsive dashboards
+- Updated About section with Eric's educational background (USIU & Zindua School)
+- Modified Skills section to reflect Eric's actual technical stack (React.js, Next.js, Supabase, Firebase, etc.)
+- Updated Projects section with Eric's real projects (Dynamic Dashboard, E-commerce platform, Portfolio website)
+- Added Eric's real contact information and social media links (LinkedIn, GitHub)
+- Added badges for current learning (Flutter) and additional skills (Video editing)
 
 # User Preferences
 

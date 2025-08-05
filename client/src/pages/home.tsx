@@ -89,7 +89,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 400 }}
           >
-            AJ
+            ELM
           </motion.div>
           <div className="hidden md:flex space-x-8">
             {["home", "about", "skills", "projects", "contact"].map((section) => (
@@ -136,7 +136,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            Hi, I'm <span className="text-blue-400">Alex Johnson</span>
+            Hi, I'm <span className="text-blue-400">Eric Lombo Mwakio</span>
           </motion.h1>
           <motion.p 
             className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto"
@@ -144,7 +144,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Full Stack Developer crafting modern web experiences with cutting-edge technologies
+            Passionate Full Stack Developer specializing in responsive dashboards with real-time data visualizations
           </motion.p>
           <motion.div 
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -195,22 +195,31 @@ const AboutSection = () => {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Me</h2>
             <p className="text-lg text-slate-300 mb-6">
-              I'm a passionate Full Stack Developer with 5+ years of experience building scalable web applications. 
-              I specialize in React, Node.js, and modern JavaScript frameworks, creating seamless user experiences 
-              from concept to deployment.
+              I'm a passionate Full Stack Developer specializing in React.js, Next.js, and modern web technologies. 
+              I excel at creating responsive dashboards with real-time data visualizations, focusing on user experience 
+              and accessibility. My expertise spans both frontend and backend development.
             </p>
             <p className="text-lg text-slate-300 mb-8">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, 
-              or sharing knowledge with the developer community through blog posts and mentoring.
+              With a Bachelor's in Software Engineering from USIU and Full Stack certification from Zindua School, 
+              I combine technical skills with creative problem-solving. I'm currently expanding my expertise in 
+              Flutter for cross-platform development and actively learning Angular and Vue.js.
             </p>
             <div className="flex flex-wrap gap-4">
               <Badge variant="secondary" className="flex items-center gap-2 bg-slate-800 text-white px-4 py-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                San Francisco, CA
+                Kenya
               </Badge>
               <Badge variant="secondary" className="flex items-center gap-2 bg-slate-800 text-white px-4 py-2">
                 <User className="h-4 w-4 text-blue-400" />
                 Available for hire
+              </Badge>
+              <Badge variant="secondary" className="flex items-center gap-2 bg-orange-500/20 text-orange-400 px-4 py-2">
+                <Code className="h-4 w-4" />
+                Learning Flutter
+              </Badge>
+              <Badge variant="secondary" className="flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2">
+                <Settings className="h-4 w-4" />
+                Video Editing
               </Badge>
             </div>
           </motion.div>
@@ -254,32 +263,32 @@ const SkillsSection = () => {
       icon: Code,
       gradient: "from-blue-400 to-blue-600",
       skills: [
-        { name: "React / Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Framer Motion", level: 85 },
+        { name: "React.js / Next.js", level: 95 },
+        { name: "JavaScript", level: 93 },
+        { name: "Tailwind CSS", level: 90 },
+        { name: "HTML5 / CSS3", level: 92 },
       ],
     },
     {
-      title: "Backend",
+      title: "Backend & Database",
       icon: Server,
       gradient: "from-green-400 to-green-600",
       skills: [
-        { name: "Node.js", level: 93 },
-        { name: "Express.js", level: 90 },
-        { name: "MongoDB", level: 88 },
-        { name: "PostgreSQL", level: 85 },
+        { name: "Supabase", level: 88 },
+        { name: "Firebase", level: 85 },
+        { name: "MongoDB", level: 87 },
+        { name: "RESTful APIs", level: 90 },
       ],
     },
     {
-      title: "Tools & DevOps",
+      title: "Tools & Others",
       icon: Settings,
       gradient: "from-purple-400 to-purple-600",
       skills: [
         { name: "Git / GitHub", level: 95 },
-        { name: "Docker", level: 82 },
-        { name: "AWS", level: 80 },
-        { name: "Vercel", level: 90 },
+        { name: "Chart.js / D3.js", level: 82 },
+        { name: "AWS", level: 78 },
+        { name: "VS Code", level: 93 },
       ],
     },
   ];
@@ -347,25 +356,25 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.",
-      icon: ShoppingCart,
-      gradient: "from-blue-500 to-purple-600",
-      tags: ["React", "Node.js", "MongoDB"],
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Real-time social media analytics dashboard with AI-powered insights and automated reporting features.",
+      title: "Dynamic Dashboard Application",
+      description: "Built a role-based, responsive dashboard using React.js and Tailwind CSS with real-time data visualizations using Chart.js and D3.js.",
       icon: Users,
-      gradient: "from-green-500 to-teal-600",
-      tags: ["Next.js", "Python", "Redis"],
+      gradient: "from-blue-500 to-purple-600",
+      tags: ["React.js", "Chart.js", "D3.js", "RESTful APIs"],
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      icon: CheckSquare,
+      title: "E-commerce Website",
+      description: "Designed and developed a fully responsive e-commerce platform with secure user authentication, payment gateways, and SEO optimization.",
+      icon: ShoppingCart,
+      gradient: "from-green-500 to-teal-600",
+      tags: ["Next.js", "Firebase", "MongoDB"],
+    },
+    {
+      title: "Portfolio Website",
+      description: "Created a personal portfolio showcasing software development projects and video editing work with intuitive UI and mobile responsiveness.",
+      icon: Code,
       gradient: "from-orange-500 to-red-600",
-      tags: ["React", "GraphQL", "PostgreSQL"],
+      tags: ["React", "Tailwind CSS", "Responsive Design"],
     },
   ];
 
@@ -491,7 +500,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white">Email</h4>
-                  <p className="text-slate-300">alex.johnson@email.com</p>
+                  <p className="text-slate-300">ericlombo1999@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -500,7 +509,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white">Phone</h4>
-                  <p className="text-slate-300">+1 (555) 123-4567</p>
+                  <p className="text-slate-300">Available on request</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -509,7 +518,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white">Location</h4>
-                  <p className="text-slate-300">San Francisco, CA</p>
+                  <p className="text-slate-300">Kenya</p>
                 </div>
               </div>
             </div>
@@ -518,8 +527,8 @@ const ContactSection = () => {
               <h4 className="font-semibold mb-4 text-white">Follow Me</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: Linkedin, href: "#", bg: "hover:bg-blue-600" },
-                  { icon: Github, href: "#", bg: "hover:bg-gray-700" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/ericlombo/", bg: "hover:bg-blue-600" },
+                  { icon: Github, href: "https://github.com/ericlombo", bg: "hover:bg-gray-700" },
                   { icon: Twitter, href: "#", bg: "hover:bg-blue-500" },
                   { icon: Instagram, href: "#", bg: "hover:bg-red-600" },
                 ].map((social, index) => (
