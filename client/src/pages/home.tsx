@@ -623,7 +623,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-slate-400">
-            © 2024 Alex Johnson. All rights reserved. Built with React, Tailwind CSS, and Framer Motion.
+            © 2025 Eric Lombo Mwakio. All rights reserved. Built with React, Tailwind CSS, and Framer Motion.
           </p>
         </div>
       </div>
