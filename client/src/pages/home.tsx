@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
+import profileImage from "../assets/profile.jpg";
 import { 
   ChevronDown, 
   Mail, 
@@ -230,8 +231,12 @@ const AboutSection = () => {
           >
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-blue-400 to-purple-600 p-1">
-                <div className="w-full h-full rounded-2xl bg-slate-800 flex items-center justify-center">
-                  <User className="h-24 w-24 text-slate-600" />
+                <div className="w-full h-full rounded-2xl overflow-hidden">
+                  <img 
+                    src={profileImage} 
+                    alt="Eric Lombo Mwakio" 
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </div>
               <motion.div 
